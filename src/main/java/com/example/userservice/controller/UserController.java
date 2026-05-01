@@ -27,7 +27,7 @@ public class UserController {
         User ser =new User();
         ser.setName("harsha");
         ser.setId(1L);
-        ser.setEmail("khdfk@gmail.com");
+        ser.setEmail("ff@gmail.com");
         return Arrays.asList(ser);
     }
 
