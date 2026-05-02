@@ -26,7 +26,7 @@ public class UserController {
     @GetMapping
     public List<User> getAll() {
         System.out.println(
-                "hey inside users"
+                "hey inside users "
         );
         User ser =new User();
         ser.setName("harsha");
