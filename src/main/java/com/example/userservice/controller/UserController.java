@@ -13,6 +13,7 @@ public class UserController {
 
     private final UserService service;
 
+
     public UserController(UserService service) {
         this.service = service;
     }
@@ -24,6 +25,9 @@ public class UserController {
 
     @GetMapping
     public List<User> getAll() {
+        System.out.println(
+                "hey inside users"
+        );
         User ser =new User();
         ser.setName("harsha");
         ser.setId(1L);
